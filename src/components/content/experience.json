@@ -12,24 +12,30 @@
       "skills": [
         "C++",
         "Python",
+        "Bash",
+        "SQL",
         "ROS",
         "Protobufs",
-        "DDS",
+        "Google Test",
         "Pytest",
         "Git",
         "Linux",
         "Bazel",
-        "Elasticsearch",
+        "Perfetto",
+        "Flamegraphs",
         "Grafana",
-        "Bamboo"
+        "Bamboo",
+        "Claude Code",
+        "Cursor",
+        "Elasticsearch"
       ],
       "bullets": [
-        "Developing software infrastructure using <b>C++</b> and <b>Python</b> for integration test platforms which utilize simulation and vehicle logs for system validation, safety clearance, and latency testing of autonomy software",
-        "Successfully investigated and resolved lidar emulator performance issues, reducing fault occurrences from <b>~60%</b> of runs to <b>0%</b>, thereby enhancing the stability and reliability of sensor playback during integration tests",
-        "Implemented fault injection capabilities for lidar playback, enabling fault response testing and safety clearance of driving software releases",
-        "Regularly triaged issues, led investigations, and monitored test platform health as an on-call engineer",
-        "Seamlessly transitioned mission-critical data used for on-call operations and updated its associated data pipelines from a deprecated <b>ElasticSearch</b> cluster to a more stable <b>OpenSearch</b> cluster, ensuring continuous data flow and service availability",
-        "Developed and maintained <b>Grafana</b> dashboards tailored to deliver essential metrics, aiding on-call engineers in their response efficiency"
+        "Developing <b>C++</b> and <b>Python</b> infrastructure for integration test platforms running autonomy software on vehicle-representative hardware, using simulation and vehicle logs for validation, safety clearance, and latency testing; surfacing issues long before they reach the road",
+        "Primary developer and maintainer of the playback framework behind a log-replay test that runs <b>thousands</b> of times a week to validate autonomy software changes; continuously modernized it onto the latest robotics middleware standards and expanded its capabilities to serve new use cases and teams across the org, while steadily improving its performance, reliability, and memory footprint",
+        "Built and maintained <b>lidar, radar, and audio</b> sensor emulators that feed raw sensor packets to real drivers in the loop; expanded them for new sensors as the platform evolved, added fault injection for safety clearance, and eliminated a lidar fault affecting <b>60%</b> of runs",
+        "Extended <b>robotics middleware</b> and orchestration frameworks to support offline testing, driving changes with framework owners to close gaps around diagnostics, resource limits, and configuration so vehicle software runs faithfully and reliably off-vehicle",
+        "Software bring-up of test assets across <b>three compute generations</b>, expanding fleet capacity and cutting CI queue times by over <b>50%</b>",
+        "Veteran on-call engineer and standing escalation point across teams; triaged issues, monitored test platform health, and uncovered a firewall gap silently blocking cross-region log replay, unlocking vehicle logs from <b>five additional cities</b>"
       ]
     },
     {
